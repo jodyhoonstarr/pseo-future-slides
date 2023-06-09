@@ -76,9 +76,148 @@ class: h-full flex flex-col justify-center
 
 - English/Spanish Language
 
-- Non-partner institutions show how to join partnership
+- Direct non-partner institutions show how to join
 
 </v-clicks>
+
+---
+
+## Public Data
+
+###### Setting the stage
+
+
+<v-click>
+
+Categorical Variables:
+
+```ts
+state = 'Colorado'
+institution = 'University of Colorado'
+degree_level = 'BA'
+program_detail = 'general'
+program = 'Engineering'
+cohort = '*'
+```
+
+</v-click>
+<v-click>
+
+Earnings Data:
+
+| years after graduation | 25% | 50% | 75%
+| :----: | :------: | :----: | :----:
+| 1  | $45k | $61k | $75k
+| 5 | $66k | $83k | $103k
+| 10 | $81k | $105k | $135K
+
+```ts
+25% 45 66 81
+```
+
+</v-click>
+
+---
+
+## Public Data
+
+###### What we need
+
+
+<v-click>
+
+Margins across institution:
+
+```ts
+state = 'Colorado'
+institution = '*' // <-- All institutions
+degree_level = 'BA'
+program_detail = 'general'
+program = 'Engineering'
+cohort = '*'
+```
+
+Earnings Data:
+
+| years after graduation | 25% | 50% | 75%
+| :----: | :------: | :----: | :----:
+| 1  | ? | ? | ?
+| 5 | ? | ? | ?
+| 10 | ? | ? | ?
+
+```ts
+25% 45 66 81
+```
+
+</v-click>
+
+## Public Data
+
+###### What we need
+
+
+<v-click>
+
+Margins for all BA Engineers:
+
+```ts
+state = '*' // <-- All States
+institution = '*' // <-- All institutions
+degree_level = 'BA'
+program_detail = 'general'
+program = 'Engineering'
+cohort = '*'
+```
+
+</v-click
+
+<v-click>
+
+Margins generic BA:
+
+```ts
+state = '*' // <-- All States
+institution = '*' // <-- All institutions
+degree_level = 'BA'
+program_detail = 'general'
+program = '*' // <-- All programs, not just engineers
+cohort = '*'
+```
+
+</v-click>
+
+---
+
+## Public Data
+
+###### Changes required
+
+<div mt4/>
+
+<v-click>
+<div class="text-gradient font-bold">
+Margins only - no changes to privacy budget
+</div>
+</v-click>
+
+<v-click>
+
+What we have:
+
+```ts
+// TODO
+```
+
+</v-click>
+<v-click>
+
+What we need:
+
+```ts
+// TODO
+```
+
+</v-click>
 
 
 ---
