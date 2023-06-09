@@ -7,7 +7,73 @@ transition: fade-out
 ---
 
 <h1 flex="~ col">
-<div class="text-gradient">Developer Experience</div>
+<div class="text-gradient text-6xl font-bold">PSEO</div>
+<div flex="~ gap3" items-center text-4xl>Planning data and application futures</div>
+</h1>
+
+<div uppercase text-sm tracking-widest>
+LEHD Apps Team
+</div>
+
+<div abs-br mx-10 my-12 flex="~ col" text-sm text-right>
+  <div text-sm opacity-50>June 14th 2023</div>
+</div>
+
+---
+layout: center
+class: text-center
+growX: 50
+growY: -20
+---
+
+# Why change?
+
+<div class="leading-10 opacity-80">
+Expand number of institution partners. Expand the userbase.<br>
+Lower friction for data and app users.<br>
+More focus on infrequent data users.
+</div>
+
+---
+growX: 50
+growY: -80
+growSize: 2
+class: h-full flex flex-col justify-center
+---
+
+# PSEO User Base
+
+<v-clicks>
+
+- Institution Admins
+
+- Data-savvy Public
+
+- Desktop Browser
+
+- Excel
+
+- English Language
+
+</v-clicks>
+
+
+---
+layout: center
+class: text-center
+growX: 50
+growY: -20
+---
+
+# ANTFU SLIDES BELOW FOR REFERENCE
+
+---
+layout: cover
+---
+
+
+<h1 flex="~ col">
+<div>Developer Experience</div>
 <div flex="~ gap3" items-center>with <span inline-block i-logos-nuxt-icon text-1.2em mb-2/> <b font-bold>Nuxt DevTools</b></div>
 </h1>
 
