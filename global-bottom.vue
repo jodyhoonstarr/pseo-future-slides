@@ -72,7 +72,7 @@ watchEffect(() => {
 <template>
   <span
     absolute pointer-events-none rounded-full z--1
-    bg-gradient-to-r from-orange-300 via-teal-400 to-blue-900
+    bg-gradient-to-r from-sky-400 to-blue-500
     op75 dark:op50
     :class="transitionClass"
     :style="{

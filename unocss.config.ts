@@ -5,6 +5,6 @@ export default defineConfig({
   ...config,
   shortcuts: {
     ...config.shortcuts || {},
-    'text-gradient': 'text-transparent bg-clip-text bg-gradient-to-tl from-orange-300 via-teal-400 to-blue-900',
+    'text-gradient': 'text-transparent bg-clip-text bg-gradient-to-tl from-sky-400 to-blue-500',
   },
 })

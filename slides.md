@@ -7,7 +7,7 @@ transition: fade-out
 ---
 
 <h1 flex="~ col">
-<div>Developer Experience</div>
+<div class="text-gradient">Developer Experience</div>
 <div flex="~ gap3" items-center>with <span inline-block i-logos-nuxt-icon text-1.2em mb-2/> <b font-bold>Nuxt DevTools</b></div>
 </h1>
 
