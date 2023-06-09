@@ -22,7 +22,7 @@ Anthony Fu
 
 ---
 layout: intro
-growX: 10
+growX: 50
 growY: 90
 style: 'padding-left: 8rem;'
 ---
