@@ -57,6 +57,29 @@ class: h-full flex flex-col justify-center
 
 </v-clicks>
 
+---
+growX: 50
+growY: -80
+growSize: 2
+class: h-full flex flex-col justify-center
+---
+
+# Targeting New Users/Partners
+
+<v-clicks>
+
+- Mobile first
+
+- Text heavy, plain language, interactive articles with visualizations
+
+- Integrate docs with data
+
+- English/Spanish Language
+
+- Non-partner institutions show how to join partnership
+
+</v-clicks>
+
 
 ---
 layout: center
