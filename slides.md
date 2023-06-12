@@ -100,6 +100,16 @@ class: h-full flex flex-col justify-center
 
 ---
 
+## Employment rate
+
+- hidden away currently
+
+- Contingent on w2 earnings data
+
+<img class="h-full abs-tr" src="/counts_ut_eng_emppct.png" >
+
+---
+
 ## Public Data
 
 ###### Setting the stage
