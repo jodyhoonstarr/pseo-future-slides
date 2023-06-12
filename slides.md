@@ -82,6 +82,18 @@ class: h-full flex flex-col justify-center
 
 ---
 
+## Example
+
+<img class="h-full abs-tr" src="/earnings_ut_eng.png" >
+
+---
+
+## Spanish
+
+<img class="h-full abs-tr" src="/earnings_ut_eng_sp.png" >
+
+---
+
 ## Public Data
 
 ###### Setting the stage
@@ -149,7 +161,10 @@ Earnings Data:
 25% 45 66 81
 ```
 
+
 </v-click>
+
+---
 
 ## Public Data
 
@@ -169,7 +184,7 @@ program = 'Engineering'
 cohort = '*'
 ```
 
-</v-click
+</v-click>
 
 <v-click>
 
