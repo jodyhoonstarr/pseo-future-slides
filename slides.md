@@ -82,6 +82,48 @@ class: h-full flex flex-col justify-center
 
 ---
 
+# What content should be provided
+
+<v-clicks>
+
+- Intermix earnings and counts
+
+- Counts show change over time
+
+- Grad employment rate (dependent on w2 data)
+
+- Explain why data not available
+
+- Show expected release years/dates
+
+  - e.g. latest cohort: 2016-2018, 2019-2021 expected in ????
+
+</v-clicks>
+
+<v-click>
+<div class="text-gradient pt-8 font-bold">
+Research: Relatedness 
+</div>
+
+- Which institutions/degrees/etc. are related?
+
+- Cross link in app
+
+</v-click>
+
+---
+layout: intro
+class: text-center pb-5
+growX: 50
+growY: 120
+---
+
+## Mockup, for clarity
+
+Using published data, nothing new
+
+---
+
 ## Example
 
 <img class="h-full abs-tr" src="/earnings_ut_eng.png" >
@@ -112,7 +154,7 @@ class: h-full flex flex-col justify-center
 
 ## Public Data
 
-###### Setting the stage
+#### What we have now, simplified
 
 
 <v-click>
