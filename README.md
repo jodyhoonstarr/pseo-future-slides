@@ -1,5 +1,7 @@
 # Welcome to [Slidev](https://github.com/slidevjs/slidev)!
 
+[![build](https://github.com/jodyhoonstarr/pseo-future-slides/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/jodyhoonstarr/pseo-future-slides/actions/workflows/build.yaml)
+
 To start the slide show:
 
 - `npm install`
