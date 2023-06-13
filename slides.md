@@ -245,7 +245,7 @@ Earnings Data:
 
 ## Public Data
 
-###### What we need
+#### What we need
 
 
 <v-click>
@@ -280,7 +280,7 @@ Earnings Data:
 
 ## Public Data
 
-###### What we need
+#### What we need
 
 
 <v-click>
@@ -317,7 +317,7 @@ cohort = '*'
 
 ## Public Data
 
-###### Changes required
+#### Changes required
 
 <div mt4/>
 
@@ -356,6 +356,35 @@ pseo_earnings_tx_degreelevel
 ```
 
 </v-click>
+
+---
+
+## Next Steps
+
+<v-click>
+<div class="text-gradient font-bold py-12">
+Large project, long process, begin before w2 changes hit
+</div>
+</v-click>
+
+<v-click>
+TODOs:
+</v-click>
+<v-clicks>
+
+- Create margins/aggregates from public use files
+
+- Determine which are valuable, pass to prod
+
+- Begin relatedness research
+
+- Develop `routes` (e.g. `/state-TX/degreelevel-BA`) based on margins
+
+- Generate rough mockups per route
+
+- App development
+
+</v-clicks>
 
 
 ---
