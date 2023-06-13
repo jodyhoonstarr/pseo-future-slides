@@ -12,7 +12,7 @@ transition: fade-out
 </h1>
 
 <div uppercase text-sm tracking-widest>
-LEHD Apps Team
+Pitching the idea, not the implementation
 </div>
 
 <div abs-br mx-10 my-12 flex="~ col" text-sm text-right>
@@ -47,7 +47,7 @@ class: h-full flex flex-col justify-center
 
 - Institution Admins
 
-- Data-savvy Public
+- Data Savvy Public
 
 - Desktop Browser
 
@@ -86,7 +86,7 @@ class: h-full flex flex-col justify-center
 
 <v-clicks>
 
-- Intermix earnings and counts
+- Both earnings and counts
 
 - Counts show change over time
 
@@ -130,12 +130,6 @@ Using published data, nothing new
 
 ---
 
-## Spanish
-
-<img class="h-full abs-tr" src="/earnings_ut_eng_sp.png" >
-
----
-
 ## Including Flows
 
 <img class="h-full abs-tr" src="/counts_ut_eng.png" >
@@ -149,6 +143,66 @@ Using published data, nothing new
 - Contingent on w2 earnings data
 
 <img class="h-full abs-tr" src="/counts_ut_eng_emppct.png" >
+
+---
+
+
+## Spanish
+
+<img class="h-full abs-tr" src="/earnings_ut_eng_sp.png" >
+
+---
+
+# How the margins fit in
+
+<v-clicks>
+
+- <span class="text-gradient">/institution</span> - all institutions
+
+  - popular institutions
+  - highest earning institutions (margins)
+
+- <span class="text-gradient">/institution-CU</span> - single institution
+
+  - margins/aggregate earnings (by degree level?)
+  - n grads (employment rate?)
+  - popular/highest earning programs
+  - related institutions
+
+</v-clicks>
+<v-clicks>
+<div class="pt-4 text-gradient">/institution-CU/degreelevel</div>  
+<div class="text-gradient">/institution-CU/degreelevel-BA</div>  
+<div class="text-gradient">/institution-CU/degreelevel-BA/program</div>  
+<div class="text-gradient">/institution-CU/degreelevel-BA/program-ENG</div>  
+<div class="text-gradient">/institution-CU/degreelevel-BA/program-ENG/detailedprogram</div>  
+</v-clicks>
+---
+
+
+# Top level margin examples
+
+<v-clicks>
+
+- <span class="text-gradient">/detailedprogram-COMPENG</span> - overview (e.g. computer eng)
+
+  - aggregate earnings
+  - institutions offering
+  - related programs
+
+- <span class="text-gradient">/state-TX</span> - overview 
+
+  - map of institutions and size
+  - aggregate earnings
+  - instate employment from counts
+  - popular programs/institutions
+
+- <span class="text-gradient">/industry-CONSTRUCTION</span>
+
+  - popular institutions contributing grads
+  - aggregate earnings
+
+</v-clicks>
 
 ---
 
