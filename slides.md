@@ -332,7 +332,11 @@ Margins only - no changes to privacy budget
 What we have:
 
 ```ts
-// TODO
+pseoe_all.csv
+pseof_all.csv
+pseoe_ak.csv
+pseof_ak.csv
+//...
 ```
 
 </v-click>
@@ -341,7 +345,14 @@ What we have:
 What we need:
 
 ```ts
-// TODO
+// Construct BDS style tables
+pseo_earnings_us
+pseo_earnings_us_degreelevel
+pseo_earnings_us_degreelevel_program
+pseo_earnings_us_degreelevel_program_detailedprogram
+pseo_earnings_tx
+pseo_earnings_tx_degreelevel
+//...
 ```
 
 </v-click>
